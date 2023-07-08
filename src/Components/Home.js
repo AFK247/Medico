@@ -1,9 +1,14 @@
 import React from 'react';
+import Card from './Card';
+import Carousel from './Carousel';
+import ShopCategory from './ShopCategory';
 
 const Home = () => {
     return (
         <div>
-            <h1>asdasd</h1>
+            <Carousel></Carousel>
+            <Card></Card>
+            <ShopCategory></ShopCategory>
         </div>
     );
 };

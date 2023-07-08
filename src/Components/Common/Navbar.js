@@ -8,7 +8,7 @@ import {} from "react-router-dom";
 const Navbar = () => {
   const [action, setAction] = useState(false);
   return (
-    <div className="sticky top-0 z-50">
+    <div className="sticky top-0 z-50 bg-slate-800 text-yellow-400">
       <div className="navbar">
         <div className="navbar-start ">
             
@@ -56,7 +56,7 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-center hidden sm:block">
-          <a href="#about" className="btn btn-ghost normal-case text-xl">
+          <a href="#about" className="btn btn-ghost normal-case text-xl hover:bg-red-300">
             Home
           </a>
           <a href="#about" className="btn btn-ghost normal-case text-xl">
